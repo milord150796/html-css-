@@ -1,0 +1,1546 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Futura PT", sans-serif;
+  background-color: #e5e5e5;
+  overflow-x: hidden;
+}
+.glavnuy_box {
+  position: relative;
+  max-width: 1920px;
+  height: 1392px;
+
+  background: #ffffff;
+}
+.header {
+  text-align: center;
+  background: linear-gradient(180deg, #003c66 0%, #003c66 91.67%);
+  color: white;
+  font-size: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  height: 80px;
+  width: 1920px;
+  left: 0px;
+  border-radius: 0px;
+  position: absolute;
+}
+.header_menu {
+  height: 23px;
+  width: 991px;
+  border-radius: nullpx;
+  position: absolute;
+  left: 465px;
+  top: 28px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  border-radius: 0px;
+  word-spacing: 50px;
+  white-space: nowrap;
+}
+.header_foto {
+  position: absolute;
+  left: 1615px;
+  top: 12px;
+}
+#header_foto {
+  border-radius: 50%;
+}
+
+.header_ua {
+  height: 23px;
+  width: 20px;
+  left: 1576px;
+  top: 26px;
+  border-radius: nullpx;
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+.header_text {
+  height: 69px;
+  width: 84px;
+  left: 1687px;
+  top: 6px;
+  border-radius: nullpx;
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  white-space: nowrap;
+  text-align: left;
+}
+.header_trukutnuk {
+  width: 7.51px;
+  height: 10px;
+  position: absolute;
+  top: 33.25px;
+  left: 1809px;
+}
+.header_trukutnuk1 {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid #ffffff;
+}
+.header_inta_box_INTITA {
+  height: 26.4px;
+  width: 105.7px;
+  position: absolute;
+  color: #ffffff;
+  border-radius: 0px;
+  top: 27.78px;
+  left: 120px;
+  white-space: nowrap;
+}
+.header_inta_box_mal {
+  height: 26.46px;
+  width: 13.04px;
+  position: absolute;
+  left: 227.84px;
+  top: 27.64px;
+  border-radius: 0px;
+}
+.header_inta_box_mal2 {
+  width: 15.33px;
+  height: 25.66px;
+  position: absolute;
+  left: 240.99px;
+  top: 28.49px;
+}
+.header_inta_box {
+  width: 29.9px;
+  height: 43.31px;
+  position: absolute;
+  left: 172.56px;
+  top: 29px;
+  bottom: 18.69px;
+  background: #ffffff;
+  border-radius: 3%;
+}
+.header_inta_box_IT {
+  height: 26.39px;
+  width: 24.37px;
+  border-radius: 0px;
+  position: absolute;
+  color: #003c66;
+  left: 3.66px;
+  right: 1.87px;
+  top: -3.79px;
+  bottom: 7.13px;
+}
+.user {
+  display: flex;
+}
+.user-info-name {
+  height: 31px;
+  width: 300px;
+  left: 29px;
+  top: 223px;
+  border-radius: nullpx;
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.user-info-inichial {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 31px;
+  width: 323px;
+  height: 31px;
+  top: 262px;
+  left: 29px;
+  position: absolute;
+
+  color: #7af7d9;
+}
+.user-info-kontaktu {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #7af7d9;
+  width: 96px;
+  height: 26px;
+  position: absolute;
+  left: 35px;
+  top: 333px;
+}
+.user-info-linia {
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  left: 29px;
+  top: 367px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.user_info_mische {
+  position: absolute;
+  top: 389px;
+  left: 30.84px;
+}
+#mische {
+  background-color: #003c66;
+}
+.user_info_mische_2 {
+  position: absolute;
+  top: -1px;
+  left: 5.33px;
+}
+.user_info_mische_title {
+  width: 268.81px;
+  height: 38px;
+  position: absolute;
+  top: 393px;
+  left: 60.19px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 107.57%;
+  color: #ffffff;
+}
+
+.user_info_trubka {
+  position: absolute;
+  top: 440px;
+  left: 29px;
+}
+.user_info_trubka_nomer {
+  position: absolute;
+  top: 442px;
+  left: 61px;
+  color: #ffffff;
+}
+.user_info_posta {
+  position: absolute;
+  top: 481.56px;
+  left: 29px;
+}
+.user_info_posta_title {
+  width: 267px;
+  height: 23px;
+  position: absolute;
+  top: 478px;
+  left: 61px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.user_info_sochial {
+  width: 175px;
+  height: 26px;
+  top: 552px;
+  left: 29px;
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #7af7d9;
+  white-space: nowrap;
+}
+.user_info_linia {
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  top: 586px;
+  left: 29px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.user_info_krapka {
+  position: absolute;
+  top: 607px;
+  left: 29px;
+}
+.user_info_krapka_facebook {
+  width: 71px;
+  height: 19px;
+  position: absolute;
+  top: 614px;
+  left: 45px;
+  color: #ffffff;
+}
+.user_info_krapka_2 {
+  position: absolute;
+  left: 29px;
+  top: 642px;
+}
+.user_info_krapka_Instagram {
+  position: absolute;
+  top: 646px;
+  left: 45px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.user_info_krapka_3 {
+  position: absolute;
+  top: 679px;
+  left: 29px;
+}
+.user_info_krapka_Viber {
+  width: 39px;
+  height: 23px;
+  top: 681px;
+  left: 45px;
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.user_info_osvita {
+  position: absolute;
+  left: 29px;
+  top: 750px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #7af7d9;
+}
+.user_info_linia_2 {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  width: 300px;
+  height: 1px;
+  left: 29px;
+  top: 784px;
+}
+.user_info_OSVITA_1 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 107.57%;
+  color: #7af7d9;
+  width: 97px;
+  height: 19px;
+  left: 29px;
+  top: 805px;
+  position: absolute;
+  white-space: nowrap;
+}
+#lu {
+  color: #ffffff;
+}
+.user_info_prachue {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 107.57%;
+  color: #7af7d9;
+  width: 97px;
+  height: 19px;
+  left: 30.25px;
+  top: 838px;
+  position: absolute;
+  white-space: nowrap;
+}
+.user_info_forma {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 107.57%;
+  color: #7af7d9;
+  width: 97px;
+  height: 19px;
+  left: 29px;
+  top: 875px;
+  position: absolute;
+  white-space: nowrap;
+}
+.user_info_trener {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 107.57%;
+  color: #7af7d9;
+  width: 97px;
+  height: 19px;
+  left: 30.25px;
+  top: 908px;
+  position: absolute;
+  white-space: nowrap;
+}
+.user-info-foto {
+  position: absolute;
+  top: 27.88px;
+  left: 85px;
+}
+#image_foto {
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+}
+.user-info {
+  display: flex;
+  position: absolute;
+  width: 340px;
+  height: 978px;
+  left: 200px;
+  top: 163px;
+  border-radius: 10%;
+
+  background: #003c66;
+  border-radius: 10px;
+}
+.right_content {
+  position: absolute;
+  width: 390px;
+  height: 100px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+  left: 589px;
+  top: 156px;
+}
+
+.content {
+  width: 136px;
+  height: 30px;
+  left: 202px;
+  position: relative;
+  top: 96px;
+
+  color: #003c66;
+}
+.right_boks {
+  top: 156px;
+  left: 589px;
+  position: absolute;
+  width: 390px;
+  height: 100px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+}
+.right {
+  position: absolute;
+  left: 589px;
+  right: 49.01%;
+  top: 156px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+  width: 390px;
+  height: 100px;
+}
+.right_foto {
+  position: absolute;
+  top: 13px;
+  left: 30px;
+}
+.right_foto_file {
+  position: absolute;
+  top: 26px;
+  left: 49.6px;
+}
+.right_foto_file_linia1 {
+  position: absolute;
+  top: 19.46px;
+  left: 8.26px;
+  background: #ffffff;
+  width: 19.28px;
+  height: 2.75px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.right_foto_file_linia2 {
+  position: absolute;
+  top: 24.97px;
+  left: 8.26px;
+  background: #ffffff;
+  width: 19.28px;
+  height: 2.75px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.right_foto_file_linia3 {
+  position: absolute;
+  top: 30.48px;
+  left: 8.26px;
+  background: #ffffff;
+  width: 19.28px;
+  height: 2.75px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.right_foto_file_linia4 {
+  position: absolute;
+  top: 35.98px;
+  left: 8.26px;
+  background: #ffffff;
+  width: 13.77px;
+  height: 2.75px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.right_text {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+.right2 {
+  height: 100px;
+  width: 720px;
+  left: 1009px;
+  top: 156px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 1009px;
+  right: 191px;
+  top: 156px;
+  bottom: 1136px;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+}
+.right2_box {
+  border-radius: 10px;
+  position: absolute;
+  border-radius: 10px;
+}
+.right2_box_title {
+  position: absolute;
+  height: 26px;
+  width: 209px;
+  left: 30px;
+  top: 22px;
+  border-radius: nullpx;
+
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 26px;
+
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+.right2_box_liniya1 {
+  height: 10px;
+  width: 620px;
+  left: 31px;
+  top: 68px;
+  right: 30px;
+
+  border-radius: 10px;
+  background-color: #edf3fc;
+  position: relative;
+  z-index: 1;
+}
+.right2_box_liniya2 {
+  height: 10px;
+  width: 485px;
+  left: 31px;
+  top: 68px;
+
+  border-radius: 10px;
+  background: linear-gradient(90deg, #0971e6 0%, #019cfe 100%);
+  z-index: 2;
+  position: absolute;
+}
+.menu {
+  height: 90px;
+  width: 1140px;
+  left: 589px;
+  top: 286px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+  position: absolute;
+}
+
+#pills-profile {
+  text-align: left;
+  position: absolute;
+  left: 20px;
+}
+.nav-pills {
+  justify-content: space-between;
+  align-content: center;
+}
+.nav-pills .nav-link.active {
+  border-bottom: 1px solid blue;
+  background: none;
+  color: #333;
+}
+.diplom {
+  position: absolute;
+  left: 30%;
+}
+.tab-pane {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 31px;
+}
+#pills-contact {
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.box_velukuy {
+  position: absolute;
+  display: flex;
+  width: 1140px;
+  height: 642px;
+  top: 406px;
+  left: 589px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+}
+.box_velukuy_kursu {
+  position: absolute;
+  width: 75px;
+  height: 26px;
+  top: 30px;
+  left: 30px;
+  color: #0971e6;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  font-family: "Futura PT";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.box_velukuy_liniya {
+  position: absolute;
+  width: 985px;
+  height: 2px;
+  left: 125px;
+  top: 41px;
+  background: #0971e6;
+  display: flex;
+}
+.box_velukuy_kursu_box1 {
+  position: absolute;
+  width: 504px;
+  height: 188px;
+  top: 96px;
+  left: 30px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px #d2d8e9;
+  border-radius: 10px;
+}
+.box_velukuy_kursu_box1_foto {
+  position: absolute;
+  border-radius: 50%;
+  top: 18.6px;
+  left: 385px;
+}
+#box_velukuy_kursu_box1_foto {
+  border-radius: 50%;
+}
+.box_velukuy_kursu_box1_VEB {
+  position: absolute;
+  width: 324px;
+  height: 53px;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.box_velukuy_kursu_box1_VEB > lu {
+  color: #000000;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+.box_velukuy_kursu_box1_IT {
+  position: absolute;
+  width: 169.93px;
+  height: 30px;
+  top: 102px;
+  left: 28.55px;
+
+  border-radius: 4px;
+}
+.box_velukuy_kursu_box1_IT_text {
+  position: absolute;
+  width: 169px;
+  height: 22px;
+  top: 4px;
+  left: 8.55px;
+}
+.box_velukuy_kursu_box1_IT_text > lu {
+  color: #135bab;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.box_velukuy_kursu_box1_podval {
+  position: absolute;
+  width: 504px;
+  height: 40px;
+  background: #003c66;
+  border-radius: 0px 0px 10px 10px;
+  top: 148px;
+}
+.box_velukuy_kursu_box1_podval_antena {
+  width: 4px;
+  height: 5px;
+  left: 20px;
+  top: 21px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 1px;
+}
+.box_velukuy_kursu_box1_podval_antena1 {
+  width: 4px;
+  height: 8px;
+  top: 18px;
+  left: 26px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 1px;
+}
+.box_velukuy_kursu_box1_podval_antena2 {
+  width: 4px;
+  height: 11px;
+  position: absolute;
+  border-radius: 1px;
+  background: #ffffff;
+  top: 15px;
+  left: 32px;
+}
+.box_velukuy_kursu_box1_podval_antena3 {
+  width: 4px;
+  height: 14px;
+  position: absolute;
+  border-radius: 1px;
+  background: #ffffff;
+  top: 12px;
+  left: 38px;
+}
+.box_velukuy_kursu_box1_podval_antena4 {
+  width: 3px;
+  height: 17px;
+  position: absolute;
+  border-radius: 1px;
+  background: #ffffff;
+  top: 9px;
+  left: 44px;
+}
+.box_velukuy_kursu_box1_podval_vusokuy {
+  width: 56px;
+  height: 21px;
+  top: 10px;
+  left: 56px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.box_velukuy_kursu_box1_podval_vusokuy > lu {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+}
+.box_velukuy_kursu_box1_podval_12m {
+  width: 65px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  left: 217px;
+  color: #ffffff;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+.box_velukuy_kursu_box1_podval_34thanatia {
+  width: 81px;
+  height: 30px;
+  position: absolute;
+  left: 292px;
+  top: 5px;
+  color: #ffffff;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+.box_velukuy_kursu_box1_podval_themla {
+  left: 440px;
+  position: absolute;
+  top: 10.56px;
+}
+.box_velukuy_kursu_box1_podval_themlareft {
+  left: 448.54px;
+  top: 11.92px;
+  position: absolute;
+}
+.box_velukuy_kursu_box1_podval_themlatop {
+  left: 442.17px;
+  top: 1px;
+  position: absolute;
+}
+.box_velukuy_kursu_box1_podval_ua {
+  width: 17px;
+  height: 30px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  position: absolute;
+  left: 467px;
+  top: 5px;
+}
+.box_velukuy_kursu_box2 {
+  width: 504px;
+  height: 188px;
+  position: absolute;
+  top: 96px;
+  left: 564px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px #d2d8e9;
+  border-radius: 10px;
+}
+.box_velukuy_kursu_box2_veb {
+  width: 324px;
+  height: 53px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 26px;
+  white-space: nowrap;
+  top: 20px;
+  left: 20px;
+
+  color: #000000;
+}
+.box_velukuy_kursu_box2_IT {
+  width: 162.45px;
+  height: 22px;
+  position: absolute;
+  white-space: nowrap;
+  top: 102px;
+  left: 28.55px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #135bab;
+}
+.box_velukuy_kursu_box2_podval {
+  width: 504px;
+  height: 40px;
+  position: absolute;
+  top: 148px;
+  background: #0078cc;
+  border-radius: 0px 0px 10px 10px;
+}
+.box_velukuy_kursu_box2_podval_antena {
+  width: 4px;
+  height: 5px;
+  position: absolute;
+  left: 20px;
+  top: 21px;
+  background: #ffffff;
+  border-radius: 1px;
+}
+.box_velukuy_kursu_box2_podval_antena2 {
+  width: 4px;
+  height: 8px;
+  position: absolute;
+  left: 26px;
+  top: 18px;
+  background: #ffffff;
+  border-radius: 1px;
+}
+.box_velukuy_kursu_box2_podval_antena3 {
+  width: 4px;
+  height: 11px;
+  position: absolute;
+  left: 32px;
+  top: 15px;
+  background: #ffffff;
+  border-radius: 1px;
+}
+.box_velukuy_kursu_box2_podval_antena4 {
+  width: 4px;
+  height: 14px;
+  position: absolute;
+  left: 38px;
+  top: 12px;
+  background: #ffffff;
+  border-radius: 1px;
+}
+.box_velukuy_kursu_box2_podval_antena5 {
+  width: 4px;
+  height: 17px;
+  position: absolute;
+  left: 44px;
+  top: 9px;
+  background: #ffffff;
+  border-radius: 1px;
+}
+.box_velukuy_kursu_box2_podval_vusokiy {
+  height: 21px;
+  width: 56px;
+  display: flex;
+  align-items: center;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  position: absolute;
+  top: 10px;
+  left: 56px;
+
+  color: #ffffff;
+}
+.box_velukuy_kursu_box2_podval_12M {
+  height: 30px;
+  width: 65px;
+  border-radius: nullpx;
+  position: absolute;
+  left: 217px;
+  top: 5px;
+  color: #ffffff;
+  white-space: nowrap;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+}
+.box_velukuy_kursu_box2_podval_34 {
+  height: 30px;
+  width: 81px;
+  border-radius: nullpx;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  white-space: nowrap;
+  position: absolute;
+  left: 287px;
+  top: 5px;
+}
+.box_velukuy_kursu_box2_podval_themlaleft {
+  position: absolute;
+  top: 10.56px;
+  left: 440px;
+}
+.box_velukuy_kursu_box2_podval_themlariht {
+  position: absolute;
+  top: 11.92px;
+  left: 448px;
+}
+.box_velukuy_kursu_box2_podval_themla_top {
+  position: absolute;
+  top: 1px;
+  left: 442.17px;
+}
+.box_velukuy_kursu_box2_podval_ua {
+  height: 30px;
+  width: 17px;
+  border-radius: nullpx;
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  left: 467px;
+  top: 5px;
+}
+.box_velukuy_modul {
+  position: absolute;
+  top: 354px;
+  left: 30px;
+  height: 26px;
+  width: 93px;
+  border-radius: nullpx;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #0971e6;
+}
+.box_velukuy_liniya2 {
+  height: 2px;
+  width: 967px;
+  border-radius: 0px;
+  position: absolute;
+  background: #0971e6;
+  left: 143px;
+  top: 367px;
+}
+.box_velukuy_box3 {
+  position: absolute;
+  height: 188px;
+  width: 504px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 2px 8px 30px #d2d8e9;
+  left: 30px;
+  top: 420px;
+}
+.box_velukuy_box3_VEB {
+  height: 53px;
+  width: 324px;
+  border-radius: nullpx;
+  position: absolute;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  white-space: nowrap;
+  top: 20px;
+  left: 20px;
+}
+.box_velukuy_box3_IT {
+  height: 22px;
+  width: 162.45px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #135bab;
+  border-radius: nullpx;
+  position: absolute;
+  left: 58.55px;
+  top: 102px;
+  white-space: nowrap;
+}
+.box_velukuy_box3_podval {
+  height: 40px;
+  width: 504px;
+  position: absolute;
+  background: #33abff;
+  border-radius: 0px 0px 10px 10px;
+  top: 148px;
+}
+.box_velukuy_box3_podval_antena {
+  height: 5px;
+  width: 4px;
+  border-radius: 1px;
+  background: #ffffff;
+  border-radius: 1px;
+  position: absolute;
+  top: 21px;
+  left: 20px;
+}
+.box_velukuy_box3_podval_antena1 {
+  height: 8px;
+  width: 4px;
+  border-radius: 1px;
+  background: #ffffff;
+  border-radius: 1px;
+  position: absolute;
+  top: 18px;
+  left: 26px;
+}
+.box_velukuy_box3_podval_antena2 {
+  height: 11px;
+  width: 4px;
+  border-radius: 1px;
+  background: #ffffff;
+  border-radius: 1px;
+  position: absolute;
+  top: 15px;
+  left: 32px;
+}
+.box_velukuy_box3_podval_antena3 {
+  height: 14px;
+  width: 4px;
+  border-radius: 1px;
+  background: #ffffff;
+  border-radius: 1px;
+  position: absolute;
+  top: 12px;
+  left: 38px;
+}
+.box_velukuy_box3_podval_antena4 {
+  height: 17px;
+  width: 4px;
+  border-radius: 1px;
+  background: #ffffff;
+  border-radius: 1px;
+  position: absolute;
+  top: 9px;
+  left: 44px;
+}
+.box_velukuy_box3_podval_vusoku {
+  height: 21px;
+  width: 56px;
+  border-radius: nullpx;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 56px;
+}
+.box_velukuy_box3_podval_12 {
+  height: 30px;
+  width: 65px;
+  border-radius: nullpx;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 5px;
+  left: 217px;
+  white-space: nowrap;
+}
+.box_velukuy_box3_podval_34 {
+  height: 30px;
+  width: 81px;
+  border-radius: nullpx;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 5px;
+  left: 292px;
+  white-space: nowrap;
+}
+.box_velukuy_box3_podval_themlya_left {
+  position: absolute;
+  left: 440px;
+  top: 10.56px;
+}
+.box_velukuy_box3_podval_themlya_reft {
+  position: absolute;
+  left: 448.54px;
+  top: 11.92px;
+}
+.box_velukuy_box3_podval_top {
+  position: absolute;
+  left: 442.17px;
+  top: 1px;
+}
+.box_velukuy_box3_podval_ua {
+  position: absolute;
+  left: 467px;
+  top: 5px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.glanuy_podval {
+  height: 208px;
+  width: 1920px;
+  border-radius: 0px;
+  background: #003c66;
+  position: absolute;
+  top: 1184px;
+}
+.glavnuy_box_ogruzok {
+  background: #fdc94f;
+  transform: rotate(-85.47deg);
+  position: absolute;
+  left: 59.87px;
+  bottom: 167.58px;
+  border-radius: 50%;
+}
+.glavnuy_box_ogruzok_kvadrat {
+  background: #fdc94f;
+  transform: rotate(-85.47deg);
+  position: absolute;
+  bottom: 1.27px;
+  left: 38px;
+  top: 45px;
+  right: 0px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  lu {
+    font-size: 14px;
+  }
+  .header {
+    width: 114%;
+  }
+  .header_inta_box_INTITA {
+    left: -18px;
+    font-size: 14px;
+  }
+  .header_inta_box_mal {
+    left: 58px;
+    font-size: 14px;
+    top: 27px;
+  }
+  .header_inta_box_mal2 {
+    left: 64px;
+    font-size: 14px;
+  }
+  .header_menu {
+    left: -321px;
+    font-size: 5px;
+    word-spacing: 1px;
+  }
+  .header_foto {
+    left: 273px;
+  }
+
+  .header_inta_box {
+    left: 35px;
+    width: 12px;
+    height: 18px;
+  }
+  .header_inta_box_IT {
+    width: 10px;
+    height: 10px;
+    left: 1px;
+    top: -17px;
+  }
+  .header_inta_box_IT > img {
+    width: 10px;
+    height: 10px;
+  }
+  .tab-pane {
+    font-size: 13px;
+    margin-left: 6px;
+    text-align: justify;
+    margin-right: 6px;
+  }
+  .tab-pane > img {
+    top: 10%;
+    left: 10%;
+    width: 81%;
+    height: 62%;
+  }
+  #pills-contact {
+    line-height: 13px;
+  }
+  #pills-profile {
+    text-align: left;
+    position: absolute;
+    left: 20px;
+  }
+
+  .glavnuy_box {
+    width: 90%;
+  }
+  .use {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    border-radius: 5px;
+  }
+  .user-info {
+    width: 100%;
+    left: 3%;
+    font-size: 14px;
+  }
+  .content {
+    width: 70%;
+    left: 10%;
+    top: 7%;
+    position: absolute;
+    font-size: 14px;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    left: 3%;
+    top: 83%;
+  }
+  .right_text {
+    font-size: 20px;
+    margin-left: 40%;
+  }
+  .right2 {
+    display: flex;
+    flex-direction: column;
+    left: 3%;
+    width: 100%;
+    top: 91%;
+  }
+  .right2_box_liniya1 {
+    width: 267px;
+  }
+  .right2_box_liniya2 {
+    width: 75%;
+  }
+
+  .menu {
+    width: 100%;
+    left: 3%;
+    top: 99%;
+    height: 3%;
+    font-size: 8px;
+  }
+  .box_velukuy {
+    width: 100%;
+    left: 3%;
+    top: 103%;
+    height: 62%;
+  }
+  .box_velukuy_liniya {
+    width: 72%;
+    left: 23%;
+  }
+  .box_velukuy_kursu {
+    left: 4%;
+  }
+  .box_velukuy_kursu_box1 {
+    width: 95%;
+    left: 2%;
+  }
+  .box_velukuy_kursu_box1_foto {
+    left: 67%;
+    top: 19%;
+  }
+
+  .box_velukuy_kursu_box1_podval {
+    width: 100%;
+  }
+  .box_velukuy_kursu_box1_podval_ua {
+    left: 88%;
+  }
+  .box_velukuy_kursu_box1_podval_themlareft {
+    left: 96%;
+    top: 10%;
+  }
+  .box_velukuy_kursu_box1_podval_themlatop {
+    left: 94%;
+    top: -10%;
+  }
+  .box_velukuy_kursu_box1_podval_themla {
+    left: 93%;
+    top: 15%;
+  }
+  .box_velukuy_kursu_box1_podval_34thanatia {
+    left: 60%;
+  }
+  .box_velukuy_kursu_box1_podval_12m {
+    left: 40%;
+  }
+  .box_velukuy_kursu_box1_podval_12m > lu {
+    font-size: 10px;
+  }
+  .box_velukuy_kursu_box1_podval_34thanatia > lu {
+    font-size: 10px;
+  }
+  .box_velukuy_kursu_box1_podval_ua > lu {
+    font-size: 10px;
+  }
+  .box_velukuy_kursu_box1_podval_vusokuy > lu {
+    font-size: 10px;
+  }
+
+  .box_velukuy_liniya2 {
+    width: 72%;
+    left: 23%;
+  }
+  .box_velukuy_modul {
+    left: 4%;
+  }
+  .box_velukuy_box3 {
+    width: 95%;
+    left: 2%;
+  }
+  .box_velukuy_kursu_box1_VEB {
+    top: 20%;
+  }
+  .box_velukuy_kursu_box1_VEB > lu {
+    font-size: 14px;
+  }
+  .box_velukuy_kursu_box1_foto {
+    left: 70%;
+  }
+  .box_velukuy_kursu_box1_foto > img {
+    width: 80%;
+    height: 80%;
+  }
+  .box_velukuy_box3_podval {
+    width: 100%;
+  }
+  .box_velukuy_box3_podval_12 {
+    left: 40%;
+  }
+  .box_velukuy_box3_podval_34 {
+    left: 60%;
+  }
+  .box_velukuy_box3_podval_themlya_left {
+    left: 90%;
+    top: 15%;
+  }
+  .box_velukuy_box3_podval_themlya_reft {
+    left: 92%;
+    top: 10%;
+  }
+  .box_velukuy_box3_podval_top {
+    left: 90.5%;
+    top: -6%;
+  }
+  .box_velukuy_box3_IT {
+    left: 10%;
+  }
+  .box_velukuy_box3_podval_12 > lu {
+    font-size: 10px;
+  }
+  .box_velukuy_box3_podval_34 > lu {
+    font-size: 10px;
+  }
+  .box_velukuy_box3_podval_ua > lu {
+    font-size: 10px;
+  }
+  .box_velukuy_box3_podval_vusoku > lu {
+    font-size: 10px;
+  }
+  .box_velukuy_box3_podval_ua {
+    left: 82%;
+  }
+  .box_velukuy_box3_VEB {
+    font-size: 14px;
+  }
+  .box_velukuy_kursu_box2 {
+    display: flex;
+    top: 72%;
+    left: 2%;
+    flex-direction: column;
+    width: 95%;
+  }
+  .box_velukuy_kursu_box2_podval {
+    width: 100%;
+  }
+  .box_velukuy_kursu_box2_podval_12M {
+    left: 40%;
+  }
+  .box_velukuy_kursu_box2_podval_34 {
+    left: 60%;
+  }
+  .box_velukuy_kursu_box2_podval_themlariht {
+    left: 90.4%;
+    top: 8%;
+  }
+  .box_velukuy_kursu_box2_podval_themla_top {
+    left: 88.5%;
+    top: -12%;
+  }
+  .box_velukuy_kursu_box2_podval_themlaleft {
+    left: 88%;
+    top: 9%;
+  }
+  .glanuy_podval {
+    width: 114%;
+    top: 166%;
+    height: 5%;
+  }
+}
